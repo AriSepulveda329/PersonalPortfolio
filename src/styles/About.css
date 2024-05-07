@@ -1,0 +1,22 @@
+.aboutSection {
+  display: flex;
+  max-width: 100%;
+  height: 90vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0px 10rem;
+  padding-top: 2rem;
+  row-gap: 2rem;
+}
+
+.aboutSection img {
+  width: 350px;
+  height: 250px;
+}
+
+.aboutSection p {
+  text-align: center;
+  padding: 10px 20vw;
+  font-size: 20px;
+}
