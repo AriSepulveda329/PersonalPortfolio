@@ -1,19 +1,15 @@
-import ImagePlaceholder from "../assets/img-placeholder.jpg";
+import todoListImg from "../assets/todoListImg.jpeg";
+import fitnessTrackerImg from "../assets/fitnessTrackerImg.jpg";
 
 export const projects = [
   {
     name: "Todo List Application",
-    img: ImagePlaceholder,
-    url: "",
+    img: todoListImg,
+    url: "https://todo-list-three-ruddy-43.vercel.app",
   },
   {
     name: "Fitness Tracker",
-    img: ImagePlaceholder,
-    url: "",
-  },
-  {
-    name: "Recipe Finder",
-    img: ImagePlaceholder,
-    url: "",
+    img: fitnessTrackerImg,
+    url: "https://fitness-tracker-rho-lovat.vercel.app/",
   },
 ];

@@ -53,13 +53,10 @@ function Contact() {
         <p className="labels">Email</p>
         <p>alonso.ari.329@gmail.com</p>
         <p className="labels">Social networks</p>
-        <a href="">
-          <FacebookIcon />
-        </a>
-        <a href="">
+        <a href="https://www.instagram.com/alonso329">
           <InstagramIcon />
         </a>
-        <a href="">
+        <a href="https://www.linkedin.com/in/arisepulveda329/">
           <LinkedInIcon />
         </a>
       </div>

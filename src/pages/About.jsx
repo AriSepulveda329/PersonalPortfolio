@@ -1,12 +1,12 @@
 import React from "react";
-import ImagePlaceholder from "../assets/img-placeholder.jpg";
+import ProfileImg2 from "../assets/profile1.jpg";
 import "../styles/About.css";
 
 function About() {
   return (
     <div className="aboutSection">
       <h1>Ari Sepulveda</h1>
-      <img src={ImagePlaceholder} />
+      <img src={ProfileImg2} alt="Ari looking at the beach" />
       <p>
         Hello, I'm Ari Alonso Sepulveda Rosales, a 25-year-old software engineer
         who graduated from the University of Colima. I have +2 years of

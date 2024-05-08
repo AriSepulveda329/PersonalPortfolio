@@ -1,5 +1,5 @@
 import React from "react";
-import PlaceHolderImg from "../assets/img-placeholder.jpg";
+import ProfileImg from "../assets/profile3.jpg";
 import "../styles/Home.css";
 
 function Home() {
@@ -12,7 +12,7 @@ function Home() {
         <h2>Welcome to My React Portfolio</h2>
       </div>
       <div className="imageSection">
-        <img src={PlaceHolderImg} />
+        <img src={ProfileImg} alt="Ari posing on garden" />
       </div>
       <div className="descriptionSection">
         <p>

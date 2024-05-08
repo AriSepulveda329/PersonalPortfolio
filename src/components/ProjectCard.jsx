@@ -6,7 +6,7 @@ function ProjectCard({ title, img, url }) {
     <div className="projectCard">
       <h3>{title}</h3>
       <a href={url}>
-        <img src={img} />
+        <img src={img} alt="Visual example for project" />
       </a>
     </div>
   );
