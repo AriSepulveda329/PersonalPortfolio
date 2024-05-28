@@ -1,6 +1,6 @@
 import React from "react";
-import ProfileImg from "../assets/profile3.jpg";
-import "../styles/Home.css";
+import ProfileImg from "@/assets/profile3.jpg";
+import "@/styles/Home.css";
 import Image from "next/image";
 
 function Home() {

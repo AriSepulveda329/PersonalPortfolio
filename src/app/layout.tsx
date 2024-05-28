@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
-import { roboto } from "../ui/fonts";
-import Navbar from "../components/Navbar";
-import "../styles/App.css";
+import { roboto } from "@/ui/fonts";
+import Navbar from "@/components/Navbar";
+import "@/styles/App.css";
 
 export const metadata: Metadata = {
   title: "Fitness Tracker",
