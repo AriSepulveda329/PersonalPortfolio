@@ -1,7 +1,9 @@
+"use client";
+
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
 import ReorderIcon from "@mui/icons-material/Reorder";
 import "../styles/Navbar.css";
+import Link from "next/link";
 
 function Navbar() {
   const [openLinks, setOpenLinks] = useState(false);
@@ -13,21 +15,21 @@ function Navbar() {
   return (
     <div className="navbar">
       <div className="button-logo" id={openLinks ? "close" : "openLogo"}>
-        <Link to="/">
+        <Link href="/">
           <button>Ari Sepulveda</button>
         </Link>
       </div>
       <div className="navbar-links" id={openLinks ? "openLinks" : "close"}>
-        <Link to="/" data-replace="Home">
+        <Link href="/" data-replace="Home">
           <span>Home</span>
         </Link>
-        <Link to="/about" data-replace="About">
+        <Link href="/about" data-replace="About">
           <span>About</span>
         </Link>
-        <Link to="/portfolio" data-replace="Portfolio">
+        <Link href="/portfolio" data-replace="Portfolio">
           <span>Portfolio</span>
         </Link>
-        <Link to="/contact" data-replace="Contact">
+        <Link href="/contact" data-replace="Contact">
           <span>Contact</span>
         </Link>
         <button onClick={toggleNavbar}>
