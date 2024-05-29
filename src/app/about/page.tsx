@@ -5,10 +5,10 @@ import "@/styles/About.css";
 
 function About() {
   return (
-    <div className="aboutSection">
-      <h1>Ari Sepulveda</h1>
+    <div className="flex max-w-full flex-col items-center justify-center mx-40 my-0 pt-8 gap-y-8 aboutSection">
+      <h1 className=" text-2xl font-medium">Ari Sepulveda</h1>
       <Image src={ProfileImg2} alt="Ari looking at the beach" />
-      <p>
+      <p className="text-center py-3 px-[20vw] text-lg">
         Hello, I'm Ari Alonso Sepulveda Rosales, a 25-year-old software engineer
         who graduated from the University of Colima. I have +2 years of
         experience in front-end development at CIMA Group, a logistics company
