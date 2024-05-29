@@ -4,7 +4,7 @@ import Navbar from "@/components/Navbar";
 import "./global.css";
 
 export const metadata: Metadata = {
-  title: "Fitness Tracker",
+  title: "Ari's Portfolio",
   description: "Portfolio project by Ari",
 };
 
