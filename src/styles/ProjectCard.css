@@ -1,12 +1,6 @@
 .projectCard {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  max-height: 330px;
   box-shadow: 10px 10px 5px #d5e0f2;
-  cursor: pointer;
   transition: box-shadow 0.4s;
-  border-radius: 20px;
 }
 
 .projectCard img {
