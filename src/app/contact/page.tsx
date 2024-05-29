@@ -49,19 +49,21 @@ function Contact() {
         displayClass={displayErrorAlert}
         setDisplayClass={setDisplayErrorAlert}
       />
-      <div className="leftSide justify-self-end">
+      <div className="leftSide pb-48 flex flex-col gap-y-3">
         <h1 className="text-3xl font-medium">Contact me!</h1>
-        <p className="font-bold">Email</p>
-        <p>alonso.ari.329@gmail.com</p>
-        <p className="font-bold">Social networks</p>
-        <a href="https://www.instagram.com/alonso329">
-          <InstagramIcon />
-        </a>
-        <a href="https://www.linkedin.com/in/arisepulveda329/">
-          <LinkedInIcon />
-        </a>
+        <p className="font-bold text-2xl">Email</p>
+        <p className="text-2xl">alonso.ari.329@gmail.com</p>
+        <p className="font-bold text-2xl">Social networks</p>
+        <section>
+          <a href="https://www.instagram.com/alonso329">
+            <InstagramIcon />
+          </a>
+          <a href="https://www.linkedin.com/in/arisepulveda329/">
+            <LinkedInIcon />
+          </a>
+        </section>
       </div>
-      <div className="rightSide mt-40">
+      <div className="rightSide">
         <form ref={form} onSubmit={sendEmail}>
           <input type="text" placeholder="Name" name="user_name" required />
           <input type="email" placeholder="Email" name="user_email" required />
