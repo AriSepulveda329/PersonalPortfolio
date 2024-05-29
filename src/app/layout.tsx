@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { roboto } from "@/ui/fonts";
 import Navbar from "@/components/Navbar";
-import "@/styles/App.css";
+import "./global.css";
 
 export const metadata: Metadata = {
   title: "Fitness Tracker",
@@ -14,8 +14,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="h-full">
-      <body className={`${roboto.className}`}>
+    <html lang="en" className="h-full m-0 p-0">
+      <body
+        className={`${roboto.className} max-w-full w-full h-full flex flex-col`}
+      >
         <Navbar />
         {children}
       </body>

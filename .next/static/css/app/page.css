@@ -13,7 +13,6 @@
   height: 100%;
   width: 100%;
   grid-column: span 2;
-  background-color: #ebfeeb;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -21,7 +20,7 @@
 }
 
 .imageSection {
-  grid-row: span 3;
+  background-image: url(/_next/static/media/profile3.150b1d62.jpg);
 }
 
 .descriptionSection {
