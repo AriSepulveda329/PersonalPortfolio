@@ -1,5 +1,5 @@
-import todoListImg from "../assets/todoListImg.jpeg";
-import fitnessTrackerImg from "../assets/fitnessTrackerImg.jpg";
+import todoListImg from "@/assets/todoListImg.jpeg";
+import fitnessTrackerImg from "@/assets/fitnessTrackerImg.jpg";
 
 export const projects = [
   {

@@ -1,7 +1,10 @@
+"use client";
+
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
 import ReorderIcon from "@mui/icons-material/Reorder";
-import "../styles/Navbar.css";
+import "@/styles/Navbar.css";
+import Link from "next/link";
+import { rubik } from "@/ui/fonts";
 
 function Navbar() {
   const [openLinks, setOpenLinks] = useState(false);
@@ -11,23 +14,28 @@ function Navbar() {
   };
 
   return (
-    <div className="navbar">
+    <div className="navbar w-full min-h-20 flex bg-green-300 flex-row items-center justify-center">
       <div className="button-logo" id={openLinks ? "close" : "openLogo"}>
-        <Link to="/">
-          <button>Ari Sepulveda</button>
+        <Link href="/">
+          <p className={`${rubik.className} font-bold text-2xl`}>
+            Ari Sepulveda
+          </p>
         </Link>
       </div>
-      <div className="navbar-links" id={openLinks ? "openLinks" : "close"}>
-        <Link to="/" data-replace="Home">
+      <div
+        className={`${rubik.className} navbar-links text-lg font-medium`}
+        id={openLinks ? "openLinks" : "close"}
+      >
+        <Link href="/" data-replace="Home">
           <span>Home</span>
         </Link>
-        <Link to="/about" data-replace="About">
+        <Link href="/about" data-replace="About">
           <span>About</span>
         </Link>
-        <Link to="/portfolio" data-replace="Portfolio">
+        <Link href="/portfolio" data-replace="Portfolio">
           <span>Portfolio</span>
         </Link>
-        <Link to="/contact" data-replace="Contact">
+        <Link href="/contact" data-replace="Contact">
           <span>Contact</span>
         </Link>
         <button onClick={toggleNavbar}>
