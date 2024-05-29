@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { roboto } from "@/ui/fonts";
+import { rubik } from "@/ui/fonts";
 import Navbar from "@/components/Navbar";
 import "./global.css";
 
@@ -16,7 +16,7 @@ export default function RootLayout({
   return (
     <html lang="en" className="h-full m-0 p-0">
       <body
-        className={`${roboto.className} max-w-full w-full h-full flex flex-col`}
+        className={`${rubik.className} relative mainBG max-w-full w-full h-full flex flex-col`}
       >
         <Navbar />
         {children}
