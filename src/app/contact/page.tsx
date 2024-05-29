@@ -34,7 +34,7 @@ function Contact() {
   };
 
   return (
-    <div className="contactPage">
+    <div className="flex max-w-full max-h-full h-full items-center justify-center gap-x-12">
       <Alert
         alertIcon={<CheckCircleIcon />}
         type="success"
@@ -49,11 +49,11 @@ function Contact() {
         displayClass={displayErrorAlert}
         setDisplayClass={setDisplayErrorAlert}
       />
-      <div className="leftSide">
-        <h1>Contact me!</h1>
-        <p className="labels">Email</p>
+      <div className="leftSide justify-self-end">
+        <h1 className="text-3xl font-medium">Contact me!</h1>
+        <p className="font-bold">Email</p>
         <p>alonso.ari.329@gmail.com</p>
-        <p className="labels">Social networks</p>
+        <p className="font-bold">Social networks</p>
         <a href="https://www.instagram.com/alonso329">
           <InstagramIcon />
         </a>
@@ -61,7 +61,7 @@ function Contact() {
           <LinkedInIcon />
         </a>
       </div>
-      <div className="rightSide">
+      <div className="rightSide mt-40">
         <form ref={form} onSubmit={sendEmail}>
           <input type="text" placeholder="Name" name="user_name" required />
           <input type="email" placeholder="Email" name="user_email" required />

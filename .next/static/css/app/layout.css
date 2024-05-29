@@ -720,6 +720,9 @@ video {
   margin-top: 0px;
   margin-bottom: 0px;
 }
+.mt-40 {
+  margin-top: 10rem;
+}
 .flex {
   display: flex;
 }
@@ -797,6 +800,12 @@ video {
 }
 .gap-y-8 {
   row-gap: 2rem;
+}
+.gap-x-12 {
+  column-gap: 3rem;
+}
+.justify-self-end {
+  justify-self: end;
 }
 .rounded-lg {
   border-radius: 0.5rem;
@@ -878,6 +887,9 @@ video {
 }
 .font-medium {
   font-weight: 500;
+}
+.font-bold {
+  font-weight: 700;
 }
 .text-gray-600 {
   --tw-text-opacity: 1;
