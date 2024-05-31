@@ -9,15 +9,13 @@ function About() {
       <h1 className=" text-2xl font-medium">Ari Sepulveda</h1>
       <Image src={ProfileImg2} alt="Ari looking at the beach" />
       <p className="text-center py-3 px-[20vw] text-lg">
-        Hello, I'm Ari Alonso Sepulveda Rosales, a 25-year-old software engineer
-        who graduated from the University of Colima. I have +2 years of
-        experience in front-end development at CIMA Group, a logistics company
-        in Manzanillo, Colima, Mexico. While I have also worked as a QA on other
-        projects for TCS, my true passion lies in front-end development. I am
-        committed to further developing my skills in React and JavaScript,
-        continually pushing myself to new limits. My goal is to expand my
-        knowledge and capabilities to create increasingly sophisticated and
-        innovative projects.
+        Hi, I'm Ari Alonso Sepulveda Rosales, a passionate software developer
+        with experience in programming with React and JavaScript. I love
+        creating dynamic and efficient web applications using modern tools like
+        Next.js, Node, Express, and Tailwind. I have experience as a full stack
+        developer and QA, but my passion and preference lie in development. My
+        goal is to continue improving my skills and bringing innovative
+        solutions to every project.
       </p>
     </div>
   );
